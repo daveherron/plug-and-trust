@@ -6,8 +6,8 @@
 # Build AARCH64
 #  $ mkdir build
 #  $ cd build
-#  $ cmake -DCMAKE_C_COMPILER=aarch64-linux-gnu-gcc -DOPTEE_TREE=/path/to/optee/ ..
-#  $ make CFLAGS="-mstrict-align -mgeneral-regs-only"
+#  $ cmake -DCMAKE_C_COMPILER=aarch64-linux-gnu-gcc -DCMAKE_C_FLAGS="-mstrict-align -mgeneral-regs-only" -DOPTEE_TREE=/path/to/optee/ ..
+#  $ make
 #
 # Build ARM
 #  $ mkdir build
