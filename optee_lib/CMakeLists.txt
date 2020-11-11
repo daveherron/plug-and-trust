@@ -37,7 +37,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.5.0)
 project(se050)
 
-set(CMAKE_C_FLAGS ${CMAKE_C_FLAGS} ${FLAGS} "-std=gnu99 \
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${FLAGS} -std=gnu99 \
                                     -fdiagnostics-show-option \
                                     -Wall -Os \
                                     -ffunction-sections -fdata-sections \
